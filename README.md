@@ -4,7 +4,7 @@ Linked List is a type of Linear Data Structure. It is consist of chain of nodes 
 In linked list, elements are not stored in contiguous memory locations like it did in array.
 Linked list are linked using pointers and size of linked list is not fixed.
 
-![1](/images/1.jpg)
+![1](/images/1.png)
 
 In linked list, there is head pointers which points to the first element in first node.
 If the linked list is empty, pointer simply points to the NULL.
@@ -54,12 +54,12 @@ The randome access to the nodes of the linked list is not allowed due to dynamic
 In this type of linked list one can move or traverse the linked list in only one direction. Each node in singly linked list has only one pointer which points to the next node. And the pointer in the last node of singly linked list point to NULL. This linked list starts from the first node and ends at last node. Traversing is more time consuming and reverse traversing is not possible in singly linked lists.
 
 
-Diagram
+![2](/images/2.png)
 
 # Doubly Linked List
 In this type of linked list, linked list can move or traverse in both forward and backward directions. Each node of doubly linked list contains left pointer, a data, and a right pointer. Left pointer points to the previous node of doubly linked list whereas right pointer points to next node of doubly linked list. Right pointer od last node points to null.
 
-DIagram
+![3](/images/3.png)
 
 ## Advantages of Doubly Linked List
 - Doubly linked list can move in both forward and backward directions.
@@ -73,7 +73,7 @@ DIagram
 # Circular Linked List
 In Circular linked list, every node is linked and every node has a successor, i.e. every node has pointer to next node. In circular linked list, pointer of the last node points to the first node. Because of this feature, this type of linked lists are circular in nature.
 
-Diagram
+![4](/images/4.png)
 
 ## Advantages of Circular Linked List
 - In Circular linked list, it is possible to move or traverse from last node to the first node of linked list.
@@ -91,7 +91,7 @@ Diagram
 # Circular Doubly Linked List
 This linked list is a combination of circular linked list and doubly linked list where each node has a left pointer which points to previous node and right pointer which points to next node. Here, right pointer of the first node points to first node as next node and left pointer of the first node points to last node as previous node. Therefore it becomes circular in nature as well as can move or travese in both back and forth directions. 
 
-diagram
+![5](/images/5.png)
 
 ## Advantages of Circular Doubly Linked List
 - Circular Doubly Linked List is easy for data manipulation.
